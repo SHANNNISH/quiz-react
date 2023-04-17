@@ -21,6 +21,15 @@ const questions = [
     ],
     correct: 2,
   },
+  {
+    title: 'Функция это...?',
+    variants: [
+      'Массив',
+      'Строка',
+      'Объект',
+    ],
+    correct: 3,
+  },
 ];
 
 function Result({correct}) {
